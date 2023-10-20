@@ -11,10 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-@font-face {
-  font-family: 'BitFont';
-  src: local('BitFont'),
-   url(./fonts/Bit-Font.ttf) format("truetype");
-  font-weight: bold;
- }
