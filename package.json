@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "Https://redhotchillipuppers.github.io/portfolios/",
   "dependencies": {
     "@aws-sdk/client-ses": "^3.430.0",
     "@emailjs/browser": "^3.11.0",
