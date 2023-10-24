@@ -43,6 +43,7 @@ h3 {
   flex-direction: row;
   display: flex;
   justify-content: space-evenly;
+  overflow: scroll;
   font-size: 20px;
   background-color: rgb(3, 6, 179);
   z-index: 100;
