@@ -70,7 +70,6 @@ They bring joy and inspiration to my daily routine and have a special place in m
         <Resume />
         </div>
         <div className='contact' id='contact'>
-
           <Contact />
         </div>
         <div className='container' id='testimonials'>

@@ -59,7 +59,11 @@ h3 {
   text-decoration-line: underline;
 }
 
-.contactBox {
+#contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
   width: 50%;
   border: 2px solid;
   border-radius: 25px;
@@ -67,11 +71,10 @@ h3 {
   padding: 10px;
 }
 
-.contact {
+.test {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  justify-content: center;
 }
 
 .aboutMe {
