@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "Https://redhotchillipuppers.github.io/portfolios/",
   "dependencies": {
-    "@aws-sdk/client-ses": "^3.430.0",
+    "@aws-sdk/client-ses": "^3.438.0",
     "@emailjs/browser": "^3.11.0",
     "@react-email/render": "^0.0.7",
     "@testing-library/jest-dom": "^5.17.0",
