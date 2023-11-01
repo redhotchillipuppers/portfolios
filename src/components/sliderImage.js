@@ -5,33 +5,33 @@ import Sif from '../assets/Sif1.jpeg';
 import Sif1 from '../assets/sif2.jpeg';
 import Thor_Sif from '../assets/Thornsif.jpeg';
 import { useContext } from 'react';
+import ToDo from './ToDo.js';
 
 
 export default [
     {
         title: 'Thor',
-        description: 'This is my dog Thor!',
+        description: '',
         urls: Thor,
     },
     {
         title: 'Sif',
-        description: 'this is my dog sif connolly doing her job!',
+        description: '',
         urls: Sif,
     },
     {
         title: 'Thor',
-        description: 'This image of Thor works',
+        description: '',
         urls: Thor1,
     },
     {
         title: 'Sif',
-        description: 'This image of Sif works',
+        description: '',
         urls: Sif1,
     },
     {
         title: 'Thor & Sif',
-        description: 'This image of Thor and Sif works',
+        description: '',
         urls: Thor_Sif,
     },
-
 ];

@@ -10,8 +10,8 @@ const [feedback, setfeedback] = useState('')
 
   function checkans() {
       if(answ === num) {
-        setfeedback(`Correct, The number was ` + num)
-        setNum(Math.floor(Math.random() *100))
+        setfeedback(`Correct, The number was ` + num + '!')
+        setNum(Math.floor(Math.random() * 100))
         setAns(''); 
       } else if(answ < num) {
         setfeedback('Incorrect ' + answ + ' is too low!')
@@ -23,7 +23,7 @@ const [feedback, setfeedback] = useState('')
   };
 
   return (
-    <div className="guess">
+    <div className="projectcontainer">
       <h2>Pick a number between 1 and 100</h2>
       <input 
       type='number' 

@@ -6,7 +6,7 @@ function Counter() {
     let [num, setNum] = useState(0)
 
     return (
-            <div className="counter">
+            <div className="projectcontainer">
                 <h2>Counter</h2>
                 
                 <p>{num}</p>

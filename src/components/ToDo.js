@@ -37,13 +37,8 @@ function addItem() {
 
 
 return (
-<div className='ToDoDiv'>
-  {/* Header*/}
-
+<div className='projectcontainer'>
 <h2>To Do list</h2>
-
-{/*Input and button */}
-
 <input 
 type='text'
 placeholder='Add an item...'
@@ -51,9 +46,6 @@ value={newItem}
 onChange={e => setNewItem(e.target.value)}
 />
 <button onClick={() => addItem()}>Add</button>
-
-{/*List of items  */}
-
 <ul>
   {items.map(item => {
     return(
