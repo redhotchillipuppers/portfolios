@@ -32,7 +32,7 @@ When I'm not knee-deep in code, you'll find me pursuing my passions outside the 
 I have a fascination for craftsmanship and enjoy creating things with my own hands. Whether it's 3D printing, 
 tinkering with blacksmithing, or any other DIY project, I relish the process of bringing ideas to life through craftsmanship.
 Additionally, I share my life with two wonderful canine companions, Thor and Sif. 
-They bring joy and inspiration to my daily routine and have a special place in my heart. Take a look at some of my other work.
+They bring joy and inspiration to my daily routine and have a special place in my heart -
 </p>
 <Slider/>
 <h2>Connect with Me</h2>
