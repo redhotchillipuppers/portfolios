@@ -1,4 +1,4 @@
-html, body {
+/*html, body {
   height: 100vh;
 }
 
@@ -128,3 +128,61 @@ li {
   border-radius: 10px;
   height: min-content;
 }
+*/
+ .App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+
+ .Headshot {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.container {
+  text-align: center;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: scroll;
+  z-index: 100;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+
+.subject {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 10px;
+  color:black;
+}
+
+.subject:hover {
+  text-decoration-line: line-through;
+}
+
+.projectcontainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
