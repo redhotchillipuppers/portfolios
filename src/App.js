@@ -27,7 +27,7 @@ function App() {
         <HashLink to='/destination-page#aboutme' className='subject'>About Me</HashLink>
         <HashLink to='/destination-page#cv' className='subject'>Resume</HashLink>
         <HashLink to='/destination-page#contact' className='subject'>Contact</HashLink>
-        <HashLink to='/destination-page#slider' className='subject'>Projects</HashLink>
+        <HashLink to='/destination-page#slider' className='subject'>Personal</HashLink>
       </span>
       <Aboutme/>
         <div className='contact' id='contact'>
