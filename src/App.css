@@ -142,6 +142,7 @@ li {
 
 .container {
   text-align: center;
+  padding-top: 15px;
 }
 
 .navbar {
@@ -182,4 +183,6 @@ li {
   border-radius: 10px;
 }
 
-
+li {
+  list-style: none;
+}
